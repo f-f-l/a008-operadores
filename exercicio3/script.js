@@ -48,23 +48,23 @@ let vendasEmJun = 9450.0
 
 let salario = 1000
 let auxilioCreche = 45.5
-let inss = salario - salario * 0.05
+const inss = salario - salario * 0.05
 
-let comissaoDeJan = vendasEmJan * 0.1
-let comissaoDeFev = vendasEmFev * 0.1
-let comissaoDeMar = vendasEmMar * 0.1
-let comissaoDeAbr = vendasEmAbr * 0.1
-let comissaoDeMai = vendasEmMai * 0.1
-let comissaoDeJun = vendasEmJun * 0.1
+const comissaoDeJan = vendasEmJan * 0.1
+const comissaoDeFev = vendasEmFev * 0.1
+const comissaoDeMar = vendasEmMar * 0.1
+const comissaoDeAbr = vendasEmAbr * 0.1
+const comissaoDeMai = vendasEmMai * 0.1
+const comissaoDeJun = vendasEmJun * 0.1
 
-let salarioDeJan = salario + comissaoDeJan - inss
-let salarioDeFev = salario + comissaoDeJan - inss
-let salarioDeMar = salario + comissaoDeFev - inss
-let salarioDeAbr = salario + comissaoDeMar - inss
-let salarioDeMai = salario + comissaoDeMai - inss
-let salarioDeJun = salario + comissaoDeJun - inss
+const salarioDeJan = salario + comissaoDeJan - inss
+const salarioDeFev = salario + comissaoDeJan - inss
+const salarioDeMar = salario + comissaoDeFev - inss
+const salarioDeAbr = salario + comissaoDeMar - inss
+const salarioDeMai = salario + comissaoDeMai - inss
+const salarioDeJun = salario + comissaoDeJun - inss
 
-let totalDoSalarioEmSeisMeses =
+const totalDoSalarioEmSeisMeses =
   salarioDeJan +
   salarioDeFev +
   salarioDeMar +
@@ -72,7 +72,7 @@ let totalDoSalarioEmSeisMeses =
   salarioDeMai +
   salarioDeJun
 
-let mediaDoSalarioEmSeisMeses =
+const mediaDoSalarioEmSeisMeses =
   salarioDeJan +
   salarioDeFev +
   salarioDeMar +
